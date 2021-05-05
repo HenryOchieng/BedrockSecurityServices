@@ -11,7 +11,7 @@
 This is web application am currently developing for Bedrock Security Services Limited.
 	
 ## Technologies
-Project is created with:
+The project was developed using:
 * Python version 3.8.7
 * Javascript
 * Django verion 3.1.6
