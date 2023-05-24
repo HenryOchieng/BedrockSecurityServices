@@ -1,9 +1,4 @@
-/**
-* Template Name: BizPage - v3.2.1
-* Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function($) {
   "use strict";
 
@@ -65,17 +60,17 @@
   });
 
   // Activate smooth scroll on page load with hash links in the url
-  $(document).ready(function() {
-    if (window.location.hash) {
-      var initial_nav = window.location.hash;
-      if ($(initial_nav).length) {
-        var scrollto = $(initial_nav).offset().top - scrolltoOffset;
-        $('html, body').animate({
-          scrollTop: scrollto
-        }, 1500, 'easeInOutExpo');
-      }
-    }
-  });
+ // $(document).ready(function() {
+   // if (window.location.hash) {
+     // var initial_nav = window.location.hash;
+      //if ($(initial_nav).length) {
+       // var scrollto = $(initial_nav).offset().top - scrolltoOffset;
+        //$('html, body').animate({
+          //scrollTop: scrollto
+        //}, 1500, 'easeInOutExpo');
+      //}
+    //}
+  //});
 
   // Mobile Navigation
   if ($('.nav-menu').length) {
@@ -171,11 +166,7 @@
     offset: '80%'
   });
 
-  // jQuery counterUp (used in Facts section)
-  $('[data-toggle="counter-up"]').counterUp({
-    delay: 10,
-    time: 1000
-  });
+
 
   // Porfolio isotope and filter
   var portfolioIsotope = $('.portfolio-container').isotope({
